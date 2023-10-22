@@ -26,7 +26,7 @@ const About = () => {
     What We Do
   </div>
   <div className="collapse-content "> 
-    <p className="text-center">hello</p>
+    <p className="text-center">hi</p>
   </div>
 </div>
 <br></br>
