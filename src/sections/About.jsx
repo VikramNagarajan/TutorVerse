@@ -3,14 +3,14 @@ import vikram from "../assets/images/VikramNagarajan.jpg"
 
 const About = () => {
   return (
-    <div id="about-us" className="flex flex-col items-center font-rubik w-full justify-center pt-12">
+    <div id="about-us" className="flex flex-col items-center font-rubik w-full justify-center pt-28">
       <section  className="justify-center">
-        <div className="text-4xl font-semibold text-white">
+        <div className="text-5xl font-semibold text-white">
             About Us
         </div>
-        <br></br>
       </section>
-      <div className="w-1/2 hidden xl:flex">
+      <div className="w-1/2 hidden xl:flex pt-5">
+
         <details className="collapse collapse-arrow bg-zinc-800">
           <summary className="collapse-title text-2xl font-medium text-center">What We Do</summary>
           <div className="collapse-content"> 
@@ -20,8 +20,10 @@ const About = () => {
           </div>
         </details>
       </div>
-      <br></br>
-      <div className="w-1/2 hidden xl:flex">
+      
+      <div className="w-1/2 hidden xl:flex pt-8">
+=======
+
         <details className="collapse collapse-arrow bg-zinc-800">
           <summary className="collapse-title text-2xl font-medium text-center">Our Mission</summary>
           <div className="collapse-content"> 
@@ -31,8 +33,9 @@ const About = () => {
           </div>
         </details>
       </div>
-      <br></br>
-      <div className="w-1/2 hidden xl:flex">
+   
+      <div className="w-1/2 hidden xl:flex pt-8">
+
         <details className="collapse collapse-arrow bg-zinc-800">
           <summary className="collapse-title text-2xl font-medium text-center">Our Story</summary>
           <div className="collapse-content"> 
@@ -42,19 +45,21 @@ const About = () => {
           </div>
         </details>
       </div>
-      <div className="card w-96 bg-zinc-800 shadow-xl xl:hidden">
-        <div className="card-body items-center">
-          <h2 className="card-title text-center">For Students. By Students.</h2>
-          <br></br>
-          <p className="text-center">
-          At TutorVerse, we hold steadfast to the belief that education is a collaborative endeavor. We prioritize creating a conducive environment for learning, where students, tutors, and peers can connect and interact seamlessly.
-          </p>
-          <br></br>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">JOIN FOR FREE!</button>
+        <div className="pt-6">
+          <div className="card w-96 bg-zinc-800 shadow-xl xl:hidden">
+            <div className="card-body items-center">
+              <h2 className="card-title text-center">For Students. By Students.</h2>
+              <br></br>
+              <p className="text-center">
+              At TutorVerse, we hold steadfast to the belief that education is a collaborative endeavor. We prioritize creating a conducive environment for learning, where students, tutors, and peers can connect and interact seamlessly.
+              </p>
+              <br></br>
+              <div className="card-actions justify-end">
+                <button className="btn btn-primary">JOIN FOR FREE!</button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
       </div>
   )
 }

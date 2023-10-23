@@ -1,10 +1,10 @@
 const Services = () => {
   return (
-    <div id="services" className="flex flex-col font-rubik w-full pt-12">
-      <div className="text-4xl font-semibold text-center text-white">
+    <div id="services" className="flex flex-col font-rubik w-full pt-28">
+      <div className="text-5xl font-semibold text-center text-white">
         Services
       </div>
-      <div className="flex flex-row justify-center pt-12">
+      <div className="flex flex-row justify-center pt-6">
         <div className="card card-side bg-green-700 shadow-xl text-xl w-3/12 hidden xl:flex" style={{ marginRight: '6rem' }}>
           {/* <figure><img src="/images/stock/photo-1635805737707-575885ab0820.jpg" alt="Movie" /></figure> */}
           <div className="card-body">
