@@ -10,6 +10,7 @@ const About = () => {
         </div>
       </section>
       <div className="w-1/2 hidden xl:flex pt-5">
+
         <details className="collapse collapse-arrow bg-zinc-800">
           <summary className="collapse-title text-2xl font-medium text-center">What We Do</summary>
           <div className="collapse-content"> 
@@ -21,6 +22,8 @@ const About = () => {
       </div>
       
       <div className="w-1/2 hidden xl:flex pt-8">
+=======
+
         <details className="collapse collapse-arrow bg-zinc-800">
           <summary className="collapse-title text-2xl font-medium text-center">Our Mission</summary>
           <div className="collapse-content"> 
@@ -32,6 +35,7 @@ const About = () => {
       </div>
    
       <div className="w-1/2 hidden xl:flex pt-8">
+
         <details className="collapse collapse-arrow bg-zinc-800">
           <summary className="collapse-title text-2xl font-medium text-center">Our Story</summary>
           <div className="collapse-content"> 
