@@ -10,9 +10,9 @@ const Hero = () => {
       </section>  
       <div className="text-lg">
         <p className="py-6 pt-8">
-           <button className="btn btn-accent hover:scale-x-125 
-           hover:scale-y-125 text-lg">
-            With a click of a button
+          <button className="btn btn-accent hover:scale-x-125 
+           hover:scale-y-125 text-lg text-black">
+           With a click of a button
            </button>
         </p>
         <p className="py-6">
