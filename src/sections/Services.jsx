@@ -1,6 +1,6 @@
 const Services = () => {
   return (
-    <div id="services" className="flex flex-col font-rubik w-full">
+    <div id="services" className="flex flex-col font-rubik w-full pt-12">
       <div className="text-4xl font-semibold text-center text-white">
         Services
       </div>
@@ -53,7 +53,6 @@ const Services = () => {
           </div>
         </div>
       </div>
-      
     </div>
   )
 }

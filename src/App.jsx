@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 const App = () => (
   <main className="relative">
-    <section>
-        <Nav />
+    <section> 
+        <Nav/>
           <Routes>
           <Route path="/home" element={Hero}/>
           <Route path="/services" element={Services}/>
@@ -13,13 +13,13 @@ const App = () => (
           <Route path="/contact-us" element={ContactUs}/>
           </Routes>  
     </section>
-    <section className="x1:padding-1 wide:padding-r">
+    <section className="x1:padding-1 wide:padding-r pt-28">
       <Hero/>
     </section>
     <section>
       <Services />
     </section>
-    <section className="padding">
+    <section>
       <About/>  
     </section>
     <section className="padding-x">
