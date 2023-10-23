@@ -4,13 +4,13 @@ const Hero = () => {
     //w-full flex justify-center min-h-screen gap-10 max-container p-2
     <div id="home" className="flex flex-col items-center font-rubik w-full py-12 justify-center text-center">
       <section className="p-2">
-        <div className="text-6xl font-semibold">
+        <div className="text-6xl font-semibold text-white">
           Reshaping Education
         </div>
       </section>  
       <div className="text-lg">
-        <p className="py-6 pt-8">
-           <button className="btn btn-accent hover:scale-x-125 
+        <p className="py-6 pt-8" >
+          <button className="btn btn-accent hover:scale-x-125 
            hover:scale-y-125 text-lg">
            With a click of a button
            </button>
