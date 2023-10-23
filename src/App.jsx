@@ -3,9 +3,9 @@ import Nav from './components/Nav';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 const App = () => (
-  <main className="relative">
-    <section> 
-        <Nav/>
+  <main className="relative bg-dark">
+    <section>
+        <Nav />
           <Routes>
           <Route path="/home" element={Hero}/>
           <Route path="/services" element={Services}/>
@@ -25,7 +25,7 @@ const App = () => (
     <section className="padding-x">
       <Tutors/>
     </section>
-    <section className="padding">
+    <section>
       <ContactUs/>
     </section>
     <section className="padding-x sm:py-32 py-16 w-full">
