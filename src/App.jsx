@@ -13,7 +13,7 @@ const App = () => (
           <Route path="/contact-us" element={ContactUs}/>
           </Routes>  
     </section>
-    <section className="x1:padding-1 wide:padding-r pt-28">
+    <section className="x1:padding-1 wide:padding-r">
       <Hero/>
     </section>
     <section>
