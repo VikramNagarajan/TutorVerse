@@ -11,7 +11,7 @@ const About = () => {
       </section>
       <div className="w-1/2 hidden xl:flex pt-5">
 
-        <details className="collapse collapse-arrow bg-zinc-800">
+        <details className="collapse collapse-arrow bg-darkLess">
           <summary className="collapse-title text-2xl font-medium text-center">What We Do</summary>
           <div className="collapse-content"> 
             <p className="text-center text-xl">
@@ -22,9 +22,8 @@ const About = () => {
       </div>
       
       <div className="w-1/2 hidden xl:flex pt-8">
-=======
 
-        <details className="collapse collapse-arrow bg-zinc-800">
+        <details className="collapse collapse-arrow bg-darkLess">
           <summary className="collapse-title text-2xl font-medium text-center">Our Mission</summary>
           <div className="collapse-content"> 
             <p className="text-center text-xl">
@@ -36,7 +35,7 @@ const About = () => {
    
       <div className="w-1/2 hidden xl:flex pt-8">
 
-        <details className="collapse collapse-arrow bg-zinc-800">
+        <details className="collapse collapse-arrow bg-darkLess">
           <summary className="collapse-title text-2xl font-medium text-center">Our Story</summary>
           <div className="collapse-content"> 
             <p className="text-center text-xl">
@@ -46,7 +45,7 @@ const About = () => {
         </details>
       </div>
         <div className="pt-6">
-          <div className="card w-96 bg-zinc-800 shadow-xl xl:hidden">
+          <div className="card w-96 bg-gray-500 shadow-xl xl:hidden">
             <div className="card-body items-center">
               <h2 className="card-title text-center">For Students. By Students.</h2>
               <br></br>

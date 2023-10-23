@@ -3,7 +3,7 @@ import Nav from './components/Nav';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 const App = () => (
-  <main className="relative">
+  <main className="relative bg-dark">
     <section>
         <Nav />
           <Routes>
