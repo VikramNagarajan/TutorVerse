@@ -2,7 +2,7 @@ import community from "../assets/images/community.png";
 const Hero = () => {
   return ( 
     //w-full flex justify-center min-h-screen gap-10 max-container p-2
-    <div id="home" className="flex flex-col items-center font-rubik w-full pt-24 justify-center text-center">
+    <div id="home" className="flex flex-col items-center font-rubik w-full pt-44 justify-center text-center">
       <section className="p-2">
         <div className="text-6xl font-semibold text-white">
           Reshaping Education
