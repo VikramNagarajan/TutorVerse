@@ -19,13 +19,13 @@ const App = () => (
     <section>
       <Services />
     </section>
-    <section className="padding">
+    <section>
       <About/>  
     </section>
     <section className="padding-x">
       <Tutors/>
     </section>
-    <section className="padding">
+    <section>
       <ContactUs/>
     </section>
     <section className="padding-x sm:py-32 py-16 w-full">
