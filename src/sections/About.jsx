@@ -15,7 +15,7 @@ const About = () => {
           <summary className="collapse-title text-2xl font-medium text-center">What We Do</summary>
           <div className="collapse-content"> 
             <p className="text-center text-xl">
-            At TutorVerse, we connect students with qualified tutors, study groups, and study buddies. Our platform caters to various learning styles, facilitating both one-on-one tutoring and collaborative learning experiences. Through a user-friendly interface, students can easily align with resources and individuals to meet their academic goals, creating a conducive environment for academic growth and success.
+            At TutorVerse, we connect students with qualified tutors, study groups, and study partners. Our platform caters to various learning styles, facilitating both one-on-one tutoring and collaborative learning experiences. Through a user-friendly interface, students can easily align with resources and individuals to meet their academic goals, creating a conducive environment for academic growth and success.
             </p>
           </div>
         </details>
