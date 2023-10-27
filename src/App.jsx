@@ -1,4 +1,4 @@
-import { About, Footer, Hero, Services, Tutors, Subscribe, ContactUs } from './sections';
+import { About, Footer, Hero, Services, ContactUs } from './sections';
 import Nav from './components/Nav';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
@@ -13,7 +13,7 @@ const App = () => (
           <Route path="/contact-us" element={ContactUs}/>
           </Routes>  
     </section>
-    <section className="x1:padding-1 wide:padding-r">
+    <section>
       <Hero/>
     </section>
     <section>
@@ -22,14 +22,8 @@ const App = () => (
     <section>
       <About/>  
     </section>
-    <section className="padding-x">
-      <Tutors/>
-    </section>
     <section>
       <ContactUs/>
-    </section>
-    <section className="padding-x sm:py-32 py-16 w-full">
-      <Subscribe/>
     </section>
     <section className="padding-x ">
       <Footer/>

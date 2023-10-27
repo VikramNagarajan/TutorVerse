@@ -3,7 +3,7 @@ import { navLinks, regLinks } from "../constants";
 
 const Nav = () => {
   return (
-    <nav className="navbar bg-black fixed top-0 z-50">
+    <nav className="navbar bg-black">
       <div className="navbar-start flex items-center">
         <div className="flex items-center justify-center pl-6">
           <img src={tutorverselogoresize} alt="Logo" height={100} width={100} className="p-3"/>

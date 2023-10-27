@@ -31,7 +31,7 @@ export default {
         "slate-gray": "#6D6D6D",
         "pale-blue": "#F5F6FF",
         "white-400": "rgba(255, 255, 255, 0.80)",
-        "dark": "#1e1f21",
+        "dark": "#121212",
         "darkLess": "#33425e",
       },
       boxShadow: {
@@ -44,7 +44,11 @@ export default {
     },
   },
   daisyui: {
-    themes: ["forest", "dark", "dracula", "halloween", "cupcake"],
+    themes: [{night: {
+      ...require("daisyui/src/theming/themes")["[data-theme=night]"],
+          "primary": "#00ffbf",
+          "accent": "#00ffff",
+    }}],
   },
   plugins: [require("daisyui")],
 }
