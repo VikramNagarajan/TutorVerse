@@ -1,6 +1,6 @@
 const Services = () => {
   return (
-    <div id="services" className="flex flex-col font-mono w-full pt-10 pb-20 bg-zinc-700">
+    <div id="services" className="flex flex-col font-mono w-full pt-10 pb-20 bg-gray-600">
       <div className="text-5xl font-semibold text-center text-white">
         Services
       </div>
