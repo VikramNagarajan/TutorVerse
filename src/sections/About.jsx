@@ -3,7 +3,7 @@ import vikram from "../assets/images/VikramNagarajan.jpg"
 
 const About = () => {
   return (
-    <div id="about-us" className="flex flex-col items-center font-mono w-full justify-center pt-10">
+    <div id="about-us" className="flex flex-col items-center font-mono w-full justify-center pt-10 pb-10">
       <section  className="justify-center">
         <div className="text-5xl font-semibold text-white">
             About Us
